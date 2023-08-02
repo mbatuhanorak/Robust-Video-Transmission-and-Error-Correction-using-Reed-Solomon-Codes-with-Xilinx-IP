@@ -1,0 +1,279 @@
+2023.1:
+ * Version 9.0 (Rev. 19)
+ * Revision change in one or more subcores
+
+2022.2.2:
+ * Version 9.0 (Rev. 18)
+ * No changes
+
+2022.2.1:
+ * Version 9.0 (Rev. 18)
+ * No changes
+
+2022.2:
+ * Version 9.0 (Rev. 18)
+ * No changes
+
+2022.1.2:
+ * Version 9.0 (Rev. 18)
+ * No changes
+
+2022.1.1:
+ * Version 9.0 (Rev. 18)
+ * No changes
+
+2022.1:
+ * Version 9.0 (Rev. 18)
+ * Revision change in one or more subcores
+
+2021.2.2:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2021.2.1:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2021.2:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2021.1.1:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2021.1:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2020.3:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2020.2.2:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2020.2.1:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2020.2:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2020.1.1:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2020.1:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2019.2.2:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2019.2.1:
+ * Version 9.0 (Rev. 17)
+ * No changes
+
+2019.2:
+ * Version 9.0 (Rev. 17)
+ * General: polarity of CE changed in metadata. No change to functionality.
+ * Revision change in one or more subcores
+
+2019.1.3:
+ * Version 9.0 (Rev. 16)
+ * No changes
+
+2019.1.2:
+ * Version 9.0 (Rev. 16)
+ * No changes
+
+2019.1.1:
+ * Version 9.0 (Rev. 16)
+ * No changes
+
+2019.1:
+ * Version 9.0 (Rev. 16)
+ * Revision change in one or more subcores
+
+2018.3.1:
+ * Version 9.0 (Rev. 15)
+ * No changes
+
+2018.3:
+ * Version 9.0 (Rev. 15)
+ * Revision change in one or more subcores
+
+2018.2:
+ * Version 9.0 (Rev. 14)
+ * No changes
+
+2018.1:
+ * Version 9.0 (Rev. 14)
+ * Revision change in one or more subcores
+
+2017.4:
+ * Version 9.0 (Rev. 13)
+ * No changes
+
+2017.3:
+ * Version 9.0 (Rev. 13)
+ * Revision change in one or more subcores
+
+2017.2:
+ * Version 9.0 (Rev. 12)
+ * No changes
+
+2017.1:
+ * Version 9.0 (Rev. 12)
+ * No changes
+
+2016.4:
+ * Version 9.0 (Rev. 12)
+ * No changes
+
+2016.3:
+ * Version 9.0 (Rev. 12)
+ * General: Support for Spartan7 devices
+ * Revision change in one or more subcores
+
+2016.2:
+ * Version 9.0 (Rev. 11)
+ * No changes
+
+2016.1:
+ * Version 9.0 (Rev. 11)
+ * Revision change in one or more subcores
+
+2015.4.2:
+ * Version 9.0 (Rev. 10)
+ * No changes
+
+2015.4.1:
+ * Version 9.0 (Rev. 10)
+ * No changes
+
+2015.4:
+ * Version 9.0 (Rev. 10)
+ * Fixed bug which could cause the System Generator block GUI to hang when the IP was parameterized
+ * Revision change in one or more subcores
+
+2015.3:
+ * Version 9.0 (Rev. 9)
+ * Many signals given explicit initial values to suppress warnings in simulation regarding X in arithmetic operation.
+ * HDL files touched to overcome namespace clash with new VHDL-2008 libraries. No change to functionality
+ * IP revision number added to HDL module, library, and include file names, to support designs with both locked and upgraded IP instances
+ * Updated COE-to-MIF code to support IP Core Container flow
+ * Initialization added to signal in syndrome to overcome VCS issue.
+ * Revision change in one or more subcores
+
+2015.2.1:
+ * Version 9.0 (Rev. 8)
+ * No changes
+
+2015.2:
+ * Version 9.0 (Rev. 8)
+ * No changes
+
+2015.1:
+ * Version 9.0 (Rev. 8)
+ * Addition of Beta support for future devices
+ * Supported devices and production status are now determined automatically, to simplify support for future devices
+
+2014.4.1:
+ * Version 9.0 (Rev. 7)
+ * No changes
+
+2014.4:
+ * Version 9.0 (Rev. 7)
+ * Encrypted source files are concatenated together to reduce the number of files and to reduce simulator compile time
+ * Enabled out-of-context clock frequency setting by adding FREQ_HZ parameter to clock interface aclk_intf
+
+2014.3:
+ * Version 9.0 (Rev. 6)
+ * Bugfix for demo testbench which failed to compile when only one puncture pattern was specified
+ * Bugfix for demo testbench could fail with index out of range.
+
+2014.2:
+ * Version 9.0 (Rev. 5)
+ * Modified demonstration testbench to ensure that the expected number of errors are in the data block while using puncture patterns. No functional changes to the synthesis HDL.
+
+2014.1:
+ * Version 9.0 (Rev. 4)
+ * Internal device family name change, no functional changes
+ * Enable third party synthesis tools to read encrypted netlists (but not source HDL)
+ * c_compare_carry_structure, c_compare_eq_ne, c_mux_bit_v12_0_viv and c_shift_ram_v12_0_legacy vhd files rephrased to eliminate warnings. Functionality unaffected.
+ * Support for Virtex Ultrascale devices at Pre-Production Status
+
+2013.4:
+ * Version 9.0 (Rev. 3)
+ * Change to end of simulation message in demonstration testbench.
+ * Support for Kintex Ultrascale devices at Pre-Production Status
+
+2013.3:
+ * Version 9.0 (Rev. 2)
+ * Repackaged for internal optimizations, no functional changes
+ * Internal standardization in source file delivery, does not change behavior
+ * Support for Automotive Artix-7, Automotive Zynq, Defense Grade Artix-7, Defense Grade Zynq and Lower Power Artix-7 devices at Production Status
+ * Added default constraints for out of context flow
+ * Added support for Cadence IES and Synopsys VCS simulators
+
+2013.2:
+ * Version 9.0 (Rev. 1)
+ * Support for Series 7 devices at Production status
+ * Beta support for future devices
+ * Removing support for Defense Grade Low Power Artix7
+
+2013.1:
+ * Version 9.0
+ * Native Vivado Release
+ * There have been no functional or interface changes to this IP.  The version number has changed to support unique versioning in Vivado starting with 2013.1.
+
+(c) Copyright 2002 - 2023 Xilinx, Inc. All rights reserved.
+
+This file contains confidential and proprietary information
+of Xilinx, Inc. and is protected under U.S. and
+international copyright and other intellectual property
+laws.
+
+DISCLAIMER
+This disclaimer is not a license and does not grant any
+rights to the materials distributed herewith. Except as
+otherwise provided in a valid license issued to you by
+Xilinx, and to the maximum extent permitted by applicable
+law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+(2) Xilinx shall not be liable (whether in contract or tort,
+including negligence, or under any other theory of
+liability) for any loss or damage of any kind or nature
+related to, arising under or in connection with these
+materials, including for any direct, or any indirect,
+special, incidental, or consequential loss or damage
+(including loss of data, profits, goodwill, or any type of
+loss or damage suffered as a result of any action brought
+by a third party) even if such damage or loss was
+reasonably foreseeable or Xilinx had been advised of the
+possibility of the same.
+
+CRITICAL APPLICATIONS
+Xilinx products are not designed or intended to be fail-
+safe, or for use in any application requiring fail-safe
+performance, such as life-support or safety devices or
+systems, Class III medical devices, nuclear facilities,
+applications related to the deployment of airbags, or any
+other applications that could lead to death, personal
+injury, or severe property or environmental damage
+(individually and collectively, "Critical
+Applications"). Customer assumes the sole risk and
+liability of any use of Xilinx products in Critical
+Applications, subject only to applicable laws and
+regulations governing limitations on product liability.
+
+THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+PART OF THIS FILE AT ALL TIMES.
