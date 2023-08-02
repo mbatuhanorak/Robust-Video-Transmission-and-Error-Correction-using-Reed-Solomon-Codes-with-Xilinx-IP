@@ -1,0 +1,15 @@
+[DesignChecker]
+reed_lib = $HDS_PROJECT_DIR/reed_lib/designcheck
+[hdl]
+reed_lib = C:/Users/mbatu/Desktop/vivadoprj/reedsolomon/src
+[hds]
+reed_lib = $HDS_PROJECT_DIR/reed_lib/hds
+[hds_settings]
+default_library = reed_lib
+version = 3
+[library_files_inclusion]
+reed_lib = specify
+[library_type]
+reed_lib = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp
